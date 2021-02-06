@@ -49,7 +49,7 @@ app.post('/signup', function(req, res) {
   let url = 'https://us7.api.mailchimp.com/3.0/lists/bd0a2d8f7e';
   let options = {
     method: 'POST',
-    auth: 'newApp:76bab91342f81a6bbbdd021ee7f57d87-us'
+    auth: 'newApp:76bab91342f81a6bbbdd021ee7f57d87-us7'
   };
 
   const request = https.request(url, options, function(response) {
